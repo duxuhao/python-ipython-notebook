@@ -1,8 +1,9 @@
 FROM daocloud.io/python:2.7
 MAINTAINER Captain Dao <support@daocloud.io>
 
-RUN mkdir -p /app
-WORKDIR /app
+#RUN mkdir -p /app
+#WORKDIR /app
+WORKDIR
 
 ADD requirements.txt requirements.txt
 RUN pip install -r requirements.txt
